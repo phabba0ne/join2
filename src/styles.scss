@@ -1,7 +1,7 @@
-@use 'styles/fonts' as *;
-@use 'styles/variables' as *;
-@use 'styles/mixins' as *;
-@use 'styles/themes' as *;
+@use './styles/fonts' as *;
+@use './styles/variables' as *;
+@use './styles/mixins' as *;
+@use './styles/themes' as *;
 
 :root {
   --bg: #f6f7f8;
