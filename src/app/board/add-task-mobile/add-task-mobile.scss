@@ -1,0 +1,175 @@
+// #region globals
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  text-decoration: none;
+  position: relative;
+}
+
+section {
+  display: flex;
+  width: 100%;
+  height: auto;
+
+  .content {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    top: 80px;
+  }
+}
+// #endregion globals
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: teal;
+
+  // #region head
+  .head {
+    display: flex;
+    justify-content: flex-start;
+    width: 428px;
+    height: 112px;
+    background-color: green;
+
+    .headline-wrap {
+      span {
+        position: absolute;
+        background-color: yellow;
+        top: 48px;
+        font-size: 47px;
+        left: 16px;
+        width: 214px;
+        height: 56px;
+      }
+    }
+  }
+  // #endregion head
+
+  // #region title
+  .title {
+    width: 396px;
+    height: 93px;
+    background-color: grey;
+    .title-lable {
+      span {
+        color: red;
+      }
+    }
+    .title-input {
+      background-color: purple;
+      margin: 10px 21px;
+      width: 354px;
+      height: 40px;
+    }
+    .title-input::placeholder {
+      left: 21px;
+      position: absolute;
+      color: white;
+    }
+  }
+  // #endregion title
+
+  // #region description
+  .description {
+    width: 396px;
+    height: 93px;
+    background-color: grey;
+    .description-lable {
+      span {
+        color: red;
+      }
+    }
+    .description-input {
+      background-color: purple;
+      margin: 10px 21px;
+      width: 354px;
+      height: 40px;
+    }
+    .description-input::placeholder {
+      left: 21px;
+      position: absolute;
+      color: white;
+    }
+  }
+  // #endregion description
+
+  // #region date
+  .date {
+    width: 396px;
+    height: 93px;
+    background-color: grey;
+    .date-lable {
+      span {
+        color: red;
+      }
+    }
+    .date-input {
+      background-color: purple;
+      margin: 10px 21px;
+      padding: 0 24px;
+      width: 354px;
+      height: 40px;
+      color: white;
+    }
+    .date-input::placeholder {
+      left: 21px;
+      position: absolute;
+    }
+  }
+  // #endregion date
+
+  // #region priority
+
+  .priority {
+    display: flex;
+    flex-direction: column;
+    .priority-label {
+    }
+    .priority-content {
+      display: flex;
+      justify-content: space-between;
+      width: 396px;
+      height: 61px;
+      padding: 10px 0px;
+      background-color: lightcoral;
+      div {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 121.3px;
+        height: 41px;
+        background-color: rgb(43, 228, 77);
+        img {
+          width: 20px;
+        }
+      }
+    }
+  }
+
+  // #endregion priority
+
+  // #region assignedTo
+
+  .assigned {
+    display: flex;
+    flex-direction: column;
+    .priority-label {
+    }
+    .assigned-content {
+      display: flex;
+      justify-content: space-between;
+      width: 396px;
+      height: 61px;
+      padding: 10px 0px;
+      background-color: lightcoral;
+    }
+  }
+
+  // #endregion assignedTo
+}
